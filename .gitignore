@@ -1,9 +1,5 @@
 node_modules/
 dist/
-artifacts/*.zip
-artifacts/*.png
-artifacts/*.svg
-
+artifacts/
 src/generated/
-artifacts/osm/
 __pycache__/
