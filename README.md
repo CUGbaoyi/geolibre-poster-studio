@@ -2,7 +2,7 @@
 
 Create editable city map posters in [GeoLibre](https://github.com/opengeos/GeoLibre), with a live map picker, print-scale control, custom colors, place markers, and offline vector data.
 
-[中文说明](README.zh-CN.md) · [Downloads](https://github.com/Pbaoyi/geolibre-poster-studio/releases)
+[中文说明](README.zh-CN.md) · [Downloads](https://github.com/CUGbaoyi/geolibre-poster-studio/releases)
 
 ![Poster Studio showing the Nanjing neighborhood print](screenshots/overview.jpg)
 
