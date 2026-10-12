@@ -1,0 +1,7 @@
+{
+  "id": "poster-studio",
+  "name": "Poster Studio · 地图海报",
+  "version": "0.5.0",
+  "description": "用真实地图创作城市线稿和街区版画，导出 SVG 与高清 PNG。",
+  "entry": "index.js"
+}

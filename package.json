@@ -1,0 +1,33 @@
+{
+  "name": "geolibre-poster-studio",
+  "version": "0.5.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node scripts/prepare-worker.mjs",
+    "predev": "node scripts/prepare-worker.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "vite --host 127.0.0.1 --port 4173",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "react": "19.3.0",
+    "maplibre-gl": "6.11.2",
+    "react-dom": "19.3.0",
+    "lucide-react": "1.51.0",
+    "@fontsource-variable/ibm-plex-sans": "5.3.0",
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3",
+    "tsx": "4.23.15",
+    "vite": "8.3.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/geojson": "7946.0.16",
+    "@types/node": "26.6.4",
+    "happy-dom": "20.14.5"
+  }
+}
